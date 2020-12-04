@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check the rendering of components Button component renders correctly 1`] = `
+<input
+  className="calc-btn"
+  onClick={[Function]}
+  type="button"
+  value={
+    Object {
+      "label": 4,
+    }
+  }
+/>
+`;
+
+exports[`check the rendering of components Diplay component renders correctly 1`] = `
+<textarea
+  className="calc-display"
+  value="23"
+/>
+`;
+
+exports[`check the rendering of components Display component renders correctly 2 1`] = `
+<textarea
+  className="calc-display"
+  value="{ButtonClick.clickEvent('2')}"
+/>
+`;
+
+exports[`check the rendering of components Display component renders correctly C 1`] = `
+<textarea
+  className="calc-display"
+  value="{ButtonClick.clickEvent('C')}"
+/>
+`;
